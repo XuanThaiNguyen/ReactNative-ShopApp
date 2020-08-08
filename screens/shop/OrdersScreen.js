@@ -9,9 +9,10 @@ const OrdersScreen = () => {
     <FlatList
       data={orders}
       keyExtractor={(item) => item.id}
-      renderItem={(itemData) =>(
+      renderItem={(itemData) => (
         <>
           <Text>Amount of items Tin update later</Text>
+
           <Text>{itemData.item.totalAmount}</Text>
         </>
       )}
