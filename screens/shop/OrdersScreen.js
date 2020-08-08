@@ -11,7 +11,7 @@ const OrdersScreen = () => {
       keyExtractor={(item) => item.id}
       renderItem={(itemData) =>(
         <>
-          <Text>Amount of items</Text>
+          <Text>Amount of items Tin update later</Text>
           <Text>{itemData.item.totalAmount}</Text>
         </>
       )}
